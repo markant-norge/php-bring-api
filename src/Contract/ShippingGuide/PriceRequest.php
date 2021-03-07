@@ -26,7 +26,7 @@ class PriceRequest extends ApiEntity
         'language' => null,
         'volumeSpecial' => null,
         'fromCountry' => null,
-        'toCountry' => null,
+        'toCountry' => 'NO',
         'customernumber'=> null
     ];
 
