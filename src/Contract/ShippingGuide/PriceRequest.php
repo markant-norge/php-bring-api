@@ -25,6 +25,7 @@ class PriceRequest extends ApiEntity
         'product' => null,
         'language' => null,
         'volumeSpecial' => null,
+        'estimateddeliverytime' => true,
         'fromCountry' => null,
         'toCountry' => null,
         'customernumber'=> null
@@ -183,6 +184,14 @@ class PriceRequest extends ApiEntity
         return $this->setData('volumeSpecial', (bool)$volumeSpecial);
     }
 
+
+    /**
+     * @param $estimatedDeliveryTime
+     * @return $this
+     */
+    public function setEstimatedDeliveryTime($estimatedDeliveryTime) {
+        return $this->setData('estimateddeliverytime', $estimatedDeliveryTime);
+    }
 
     /**
      * @param $fromCountry
