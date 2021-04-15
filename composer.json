@@ -2,7 +2,7 @@
   "name": "markant-norge/php-bring-api",
   "description": "Bring API wrapper for PHP.",
   "type": "library",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "license": [
   ],
   "require": {
