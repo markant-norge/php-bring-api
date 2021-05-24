@@ -17,6 +17,7 @@ class ShippingGuideData {
     const ADVISERING = 'ADVISERING';
     const PICKUP_POINT = 'PICKUP_POINT';
     const EVE_DELIVERY = 'EVE_DELIVERY';
+    const SIMPLIFIED_DELIVERY= '1081';
 
 
 
@@ -28,7 +29,8 @@ class ShippingGuideData {
             self::ENVELOPE,
             self::ADVISERING,
             self::PICKUP_POINT,
-            self::EVE_DELIVERY
+            self::EVE_DELIVERY,
+            self::SIMPLIFIED_DELIVERY
         ];
     }
 }
