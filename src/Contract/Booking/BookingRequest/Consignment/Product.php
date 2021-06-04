@@ -24,6 +24,7 @@ class Product extends ApiEntity
     /**
      * See http://developer.bring.com/api/booking/
      */
+    
     static public function serviceMapping () {
         return [
             BringData::PRODUCT_5800 => [self::ADDITIONAL_SERVICE_CASH_ON_DELIVERY, self::ADDITIONAL_SERVICE_RECIPIENT_NOTIFICATION, self::ADDITIONAL_SERVICE_SOCIAL_CONTROL],
